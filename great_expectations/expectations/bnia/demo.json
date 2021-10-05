@@ -1,0 +1,5494 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "bnia.demo",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column_list": [
+          "recorddate",
+          "recordobs",
+          "source",
+          "coname",
+          "address",
+          "city",
+          "state",
+          "zipcode",
+          "mc_route",
+          "md_barcode",
+          "loc_addr",
+          "loc_city",
+          "loc_state",
+          "loc_zip",
+          "locbarcode",
+          "loc_route",
+          "county",
+          "phn_nbr",
+          "web_addr",
+          "last_name",
+          "first_name",
+          "ctct_title",
+          "ctct_prof",
+          "ctct_gen",
+          "empl_size",
+          "empl_rng",
+          "sales_vol",
+          "sales_rng",
+          "prim_sic",
+          "psic_dsc",
+          "scnd_sic1",
+          "scnd_dsc1",
+          "scnd_sic2",
+          "scnd_dsc2",
+          "cr_a_score",
+          "cr_n_score",
+          "headqtr",
+          "first_year",
+          "ofc_size",
+          "sq_foot",
+          "firm_indv",
+          "pub_pvt",
+          "fleetsize",
+          "specialty1",
+          "specialty2",
+          "ind_code",
+          "yellowpage",
+          "metro_area",
+          "infousa_id",
+          "latitude",
+          "longitude",
+          "match_code",
+          "prim_naics",
+          "pnaics_dsc",
+          "acct_exp",
+          "ad_exp",
+          "offsup_exp",
+          "pay_exp",
+          "rent_exp",
+          "tech_exp",
+          "tele_exp",
+          "ins_exp",
+          "legal_exp",
+          "pckg_exp",
+          "pirnt_exp",
+          "prof_exp",
+          "templbrexp",
+          "util_exp"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "max_value": 100,
+        "min_value": 100
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recorddate",
+        "value_set": [
+          "Sep 22 2021"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recorddate"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recorddate",
+        "max_value": 0.01,
+        "min_value": 0.01
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recorddate",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recordobs",
+        "value_set": [
+          "Mar 22 2022"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recordobs"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recordobs",
+        "max_value": 0.01,
+        "min_value": 0.01
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "recordobs",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "source",
+        "value_set": [
+          "Data Axle"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "source"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "source",
+        "max_value": 0.01,
+        "min_value": 0.01
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "source",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "coname"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "coname",
+        "max_value": 1.0,
+        "min_value": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "coname",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "address"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "address",
+        "max_value": 0.9,
+        "min_value": 0.9
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "address",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "city",
+        "value_set": [
+          "Baltimore",
+          "Brooklyn",
+          "Odenton"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "city"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "city",
+        "max_value": 0.03,
+        "min_value": 0.03
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "city",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "state",
+        "value_set": [
+          "MD"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "state"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "state",
+        "max_value": 0.01,
+        "min_value": 0.01
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "state",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "zipcode"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "zipcode",
+        "max_value": 0.85,
+        "min_value": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "zipcode",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "mc_route",
+        "value_set": [
+          "B371",
+          "B795",
+          "C000",
+          "C001",
+          "C002",
+          "C003",
+          "C005",
+          "C006",
+          "C007",
+          "C009",
+          "C013",
+          "C014",
+          "C015",
+          "C016",
+          "C017",
+          "C018",
+          "C020",
+          "C023",
+          "C024",
+          "C025",
+          "C026",
+          "C027",
+          "C029",
+          "C030",
+          "C031",
+          "C033",
+          "C034",
+          "C036",
+          "C037",
+          "C038",
+          "C039",
+          "C041",
+          "C042",
+          "C045",
+          "C047",
+          "C057",
+          "C059",
+          "C061",
+          "C063",
+          "C067",
+          "C093",
+          "C098",
+          "C770"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "mc_route",
+        "mostly": 0.98
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "mc_route",
+        "max_value": 0.4387755102040816,
+        "min_value": 0.4387755102040816
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "mc_route",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "md_barcode",
+        "max_value": 1.0,
+        "min_value": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "md_barcode",
+        "max_value": 999.0,
+        "min_value": 999.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "md_barcode",
+        "max_value": 376.5360824742268,
+        "min_value": 376.5360824742268
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "md_barcode",
+        "max_value": 226.0,
+        "min_value": 226.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "md_barcode",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              5.0,
+              5.0
+            ],
+            [
+              22.0,
+              22.0
+            ],
+            [
+              226.0,
+              226.0
+            ],
+            [
+              714.0,
+              714.0
+            ],
+            [
+              997.0,
+              997.0
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "md_barcode",
+        "mostly": 0.97
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "md_barcode",
+        "max_value": 0.6804123711340206,
+        "min_value": 0.6804123711340206
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "md_barcode",
+        "type_list": [
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FLOAT64",
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "NUMERIC",
+          "FloatType",
+          "DoubleType",
+          "float_",
+          "float16",
+          "float32",
+          "float64",
+          "number",
+          "DECIMAL",
+          "REAL"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_addr"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_addr",
+        "max_value": 0.9,
+        "min_value": 0.9
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_addr",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_city",
+        "value_set": [
+          "Baltimore",
+          "Brooklyn"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_city"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_city",
+        "max_value": 0.02,
+        "min_value": 0.02
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_city",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_state",
+        "value_set": [
+          "MD"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_state"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_state",
+        "max_value": 0.01,
+        "min_value": 0.01
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_state",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_zip"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_zip",
+        "max_value": 0.85,
+        "min_value": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_zip",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "locbarcode",
+        "max_value": 1.0,
+        "min_value": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "locbarcode",
+        "max_value": 999.0,
+        "min_value": 999.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "locbarcode",
+        "max_value": 365.9479166666667,
+        "min_value": 365.9479166666667
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "locbarcode",
+        "max_value": 226.0,
+        "min_value": 226.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "locbarcode",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              5.0,
+              5.0
+            ],
+            [
+              19.0,
+              19.0
+            ],
+            [
+              226.0,
+              226.0
+            ],
+            [
+              639.0,
+              639.0
+            ],
+            [
+              997.0,
+              997.0
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "locbarcode",
+        "mostly": 0.96
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "locbarcode",
+        "max_value": 0.6770833333333334,
+        "min_value": 0.6770833333333334
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "locbarcode",
+        "type_list": [
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FLOAT64",
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "NUMERIC",
+          "FloatType",
+          "DoubleType",
+          "float_",
+          "float16",
+          "float32",
+          "float64",
+          "number",
+          "DECIMAL",
+          "REAL"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_route",
+        "value_set": [
+          "B371",
+          "B795",
+          "C000",
+          "C001",
+          "C002",
+          "C003",
+          "C005",
+          "C006",
+          "C007",
+          "C009",
+          "C013",
+          "C014",
+          "C015",
+          "C016",
+          "C017",
+          "C018",
+          "C020",
+          "C023",
+          "C024",
+          "C025",
+          "C026",
+          "C027",
+          "C029",
+          "C030",
+          "C031",
+          "C033",
+          "C034",
+          "C036",
+          "C037",
+          "C038",
+          "C039",
+          "C041",
+          "C042",
+          "C045",
+          "C047",
+          "C057",
+          "C059",
+          "C061",
+          "C063",
+          "C067",
+          "C093",
+          "C098"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_route",
+        "mostly": 0.97
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_route",
+        "max_value": 0.4329896907216495,
+        "min_value": 0.4329896907216495
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "loc_route",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "county",
+        "value_set": [
+          "Baltimore City"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "county"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "county",
+        "max_value": 0.01,
+        "min_value": 0.01
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "county",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "phn_nbr",
+        "max_value": 2012131357,
+        "min_value": 2012131357
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "phn_nbr",
+        "max_value": 2066535939,
+        "min_value": 2066535939
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "phn_nbr",
+        "max_value": 2027667358.42,
+        "min_value": 2027667358.42
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "phn_nbr",
+        "max_value": 2025438481.5,
+        "min_value": 2025438481.5
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "phn_nbr",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              2016567178,
+              2016567178
+            ],
+            [
+              2023510870,
+              2023510870
+            ],
+            [
+              2025374000,
+              2025374000
+            ],
+            [
+              2027800987,
+              2027800987
+            ],
+            [
+              2052403009,
+              2052403009
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "phn_nbr"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "phn_nbr",
+        "max_value": 0.99,
+        "min_value": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "phn_nbr",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "web_addr",
+        "value_set": [
+          "www.aia.org",
+          "www.allisonshapira.com",
+          "www.apic.org",
+          "www.baltimoredevelopment.com",
+          "www.bikramyoga.com",
+          "www.bradleysitedesign.com",
+          "www.careerprofiles.com",
+          "www.childrensdefense.org",
+          "www.churchoftheharbor.org",
+          "www.coregroup.org",
+          "www.deltasigmatheta.org",
+          "www.diamonddogsbaltimore.com",
+          "www.ecologicalrestoration.org",
+          "www.ecolonial.com",
+          "www.elearn.sophe.org",
+          "www.garyrahman.com",
+          "www.gccb-llc.com",
+          "www.gsawholesale.com",
+          "www.honeyhousehomes.com",
+          "www.idealdesignco.com",
+          "www.jhu.edu",
+          "www.jmrconnect.net",
+          "www.justlikemychild.org",
+          "www.liminalresearch.com",
+          "www.livingclassrooms.org",
+          "www.locations.ups.com",
+          "www.mcdonaldcabot.com",
+          "www.njdc.info",
+          "www.offshorewindus.org",
+          "www.onemainfinancial.com",
+          "www.pathology.jhu.edu",
+          "www.politicalboost.org",
+          "www.redcoats.com",
+          "www.rocketdocs.com",
+          "www.stephenzelcer.com",
+          "www.stevens.edu",
+          "www.thestepupfoundation.org",
+          "www.topkatsgroup.org",
+          "www.worrellpr.com"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "web_addr",
+        "mostly": 0.6
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "web_addr",
+        "max_value": 0.975,
+        "min_value": 0.975
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "web_addr",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "last_name",
+        "mostly": 0.55
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "last_name",
+        "max_value": 1.0,
+        "min_value": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "last_name",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_name",
+        "value_set": [
+          "Amanda",
+          "Artemis",
+          "Arthur",
+          "Ashima",
+          "Bethany",
+          "Chris",
+          "Daniel L",
+          "Danielle",
+          "Dante",
+          "Edirin",
+          "Erin C",
+          "Ernesto S",
+          "Georgia",
+          "Henna",
+          "Hiwot",
+          "Janet",
+          "Jason",
+          "Jazmin E",
+          "Jenay",
+          "Jessica L",
+          "Jiemin",
+          "Kathleen",
+          "Keith Tariq",
+          "Konstantina",
+          "Kris",
+          "Leia Chava",
+          "Leslie",
+          "Liz",
+          "Lou",
+          "Marion A",
+          "Michelle",
+          "Mostafa",
+          "Nabiatu",
+          "Nancy E",
+          "Nazlee",
+          "Nimota R",
+          "Olufunto",
+          "Oluwatosin",
+          "Philip",
+          "Rivka Leah",
+          "Sarah E",
+          "Sarah N",
+          "Simisola",
+          "Stephen",
+          "Steven",
+          "Teddi",
+          "Terry",
+          "Tiffany",
+          "Tracee M W",
+          "Victoria K",
+          "Wakeelat A",
+          "Yasmine",
+          "Yumna",
+          "Zev"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_name",
+        "mostly": 0.55
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_name",
+        "max_value": 0.9818181818181818,
+        "min_value": 0.9818181818181818
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_name",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_title",
+        "value_set": [
+          "CEO",
+          "DIRECTOR",
+          "EXEC DIRECTOR",
+          "EXEC OFFICER",
+          "GENERAL MGR",
+          "MANAGER",
+          "MARKETING",
+          "OTHER",
+          "OWNER",
+          "PARTNER",
+          "PRINCIPAL",
+          "VICE PRESIDENT"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_title",
+        "mostly": 0.79
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_title",
+        "max_value": 0.5714285714285714,
+        "min_value": 0.5714285714285714
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_title",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_prof",
+        "value_set": [
+          "DDS",
+          "DMD",
+          "MD",
+          "MSN",
+          "NP",
+          "OT",
+          "PA"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_prof",
+        "mostly": 0.76
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_prof",
+        "max_value": 0.2916666666666667,
+        "min_value": 0.2916666666666667
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_prof",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_gen",
+        "value_set": [
+          "Female",
+          "Male"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_gen",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_gen",
+        "max_value": 0.03773584905660377,
+        "min_value": 0.03773584905660377
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ctct_gen",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size",
+        "max_value": 0,
+        "min_value": 0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size",
+        "max_value": 73,
+        "min_value": 73
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size",
+        "max_value": 4.73,
+        "min_value": 4.73
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size",
+        "max_value": 3.0,
+        "min_value": 3.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "empl_size",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              11,
+              11
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size",
+        "value_set": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          20,
+          28,
+          73
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size",
+        "max_value": 0.16,
+        "min_value": 0.16
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_size",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_rng",
+        "value_set": [
+          "1 to 4",
+          "10 to 19",
+          "20 to 49",
+          "5 to 9",
+          "50 to 99",
+          "Unknown"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_rng"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_rng",
+        "max_value": 0.06,
+        "min_value": 0.06
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "empl_rng",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol",
+        "max_value": 0,
+        "min_value": 0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol",
+        "max_value": 5242000,
+        "min_value": 5242000
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol",
+        "max_value": 536190.0,
+        "min_value": 536190.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol",
+        "max_value": 232000.0,
+        "min_value": 232000.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "sales_vol",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              232000,
+              232000
+            ],
+            [
+              574000,
+              574000
+            ],
+            [
+              2043000,
+              2043000
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol",
+        "value_set": [
+          0,
+          53000,
+          68000,
+          99000,
+          146000,
+          232000,
+          275000,
+          325000,
+          327000,
+          410000,
+          450000,
+          480000,
+          524000,
+          529000,
+          543000,
+          574000,
+          673000,
+          681000,
+          688000,
+          812000,
+          819000,
+          956000,
+          968000,
+          994000,
+          1048000,
+          1067000,
+          1209000,
+          1406000,
+          1528000,
+          1681000,
+          1753000,
+          1952000,
+          1963000,
+          2043000,
+          2459000,
+          3074000,
+          3085000,
+          3234000,
+          5242000
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol",
+        "max_value": 0.39,
+        "min_value": 0.39
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_vol",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_rng",
+        "value_set": [
+          "$1 - 2.5 MILLION",
+          "$2.5 - 5 MILLION",
+          "$5 - 10 MILLION",
+          "$500,000 - 1 MILLION",
+          "LESS THAN $500,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_rng",
+        "mostly": 0.66
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_rng",
+        "max_value": 0.07575757575757576,
+        "min_value": 0.07575757575757576
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sales_rng",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic",
+        "max_value": 75204,
+        "min_value": 75204
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic",
+        "max_value": 999977,
+        "min_value": 999977
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic",
+        "max_value": 760474.64,
+        "min_value": 760474.64
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic",
+        "max_value": 802101.0,
+        "min_value": 802101.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "prim_sic",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              171131,
+              171131
+            ],
+            [
+              737108,
+              737108
+            ],
+            [
+              802101,
+              802101
+            ],
+            [
+              861102,
+              861102
+            ],
+            [
+              999977,
+              999977
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic",
+        "value_set": [
+          75204,
+          78103,
+          154213,
+          171105,
+          171131,
+          172101,
+          478977,
+          481302,
+          489903,
+          539901,
+          565101,
+          571305,
+          591205,
+          614101,
+          614108,
+          628207,
+          641112,
+          653118,
+          701101,
+          723106,
+          733101,
+          734902,
+          737102,
+          737108,
+          737311,
+          738999,
+          752102,
+          799949,
+          801101,
+          802101,
+          804907,
+          804918,
+          804920,
+          804925,
+          809907,
+          809921,
+          809936,
+          829929,
+          832221,
+          839999,
+          841201,
+          861102,
+          864107,
+          865101,
+          866107,
+          866110,
+          871106,
+          871202,
+          873206,
+          873303,
+          873312,
+          874302,
+          874899,
+          999966,
+          999977
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic",
+        "max_value": 0.55,
+        "min_value": 0.55
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_sic",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "psic_dsc",
+        "value_set": [
+          "Architects",
+          "Associations",
+          "Beauty Salons",
+          "Building Contractors",
+          "Business Services Nec",
+          "Cancer Research Centers",
+          "Carpet & Rug Dealers-New",
+          "Churches",
+          "Clothing-Retail",
+          "Communications",
+          "Computer Programming Services",
+          "Computer-Software Developers",
+          "Consultants-Business Nec",
+          "Dentists",
+          "Educational Service-Business",
+          "Energy Management Systems & Products",
+          "Engineers",
+          "Federal Government Contractors",
+          "Foundation-Educ Philanthropic Research",
+          "Fraternities & Sororities",
+          "General Merchandise-Retail",
+          "Health Education",
+          "Health Services",
+          "Hotels & Motels",
+          "Insurance",
+          "Janitor Service",
+          "Landscape Designers",
+          "Loans",
+          "Loans-Personal",
+          "Mailing & Shipping Services",
+          "Mergers & Acquisitions",
+          "Museums",
+          "Nonclassified Establishments",
+          "Nurses-Practitioners",
+          "Painters",
+          "Parking Stations & Garages",
+          "Pet Washing & Grooming",
+          "Pharmacies",
+          "Physical Therapists",
+          "Physicians & Surgeons",
+          "Physicians Assistants",
+          "Plumbing Contractors",
+          "Political Organizations",
+          "Public Relations Counselors",
+          "Real Estate",
+          "Religious Organizations",
+          "Research Service",
+          "Social Services Nec",
+          "Social Workers",
+          "Speech Pathologists",
+          "Telecommunications Services",
+          "Transportation",
+          "Website Design Service",
+          "Wellness Programs",
+          "Yoga Instruction"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "psic_dsc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "psic_dsc",
+        "max_value": 0.55,
+        "min_value": 0.55
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "psic_dsc",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1",
+        "max_value": 75204,
+        "min_value": 75204
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1",
+        "max_value": 999977,
+        "min_value": 999977
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1",
+        "max_value": 760474.64,
+        "min_value": 760474.64
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1",
+        "max_value": 802101.0,
+        "min_value": 802101.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "scnd_sic1",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              171131,
+              171131
+            ],
+            [
+              737108,
+              737108
+            ],
+            [
+              802101,
+              802101
+            ],
+            [
+              861102,
+              861102
+            ],
+            [
+              999977,
+              999977
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1",
+        "value_set": [
+          75204,
+          78103,
+          154213,
+          171105,
+          171131,
+          172101,
+          478977,
+          481302,
+          489903,
+          539901,
+          565101,
+          571305,
+          591205,
+          614101,
+          614108,
+          628207,
+          641112,
+          653118,
+          701101,
+          723106,
+          733101,
+          734902,
+          737102,
+          737108,
+          737311,
+          738999,
+          752102,
+          799949,
+          801101,
+          802101,
+          804907,
+          804918,
+          804920,
+          804925,
+          809907,
+          809921,
+          809936,
+          829929,
+          832221,
+          839999,
+          841201,
+          861102,
+          864107,
+          865101,
+          866107,
+          866110,
+          871106,
+          871202,
+          873206,
+          873303,
+          873312,
+          874302,
+          874899,
+          999966,
+          999977
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1",
+        "max_value": 0.55,
+        "min_value": 0.55
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic1",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc1",
+        "value_set": [
+          "Architects",
+          "Associations",
+          "Beauty Salons",
+          "Building Contractors",
+          "Business Services Nec",
+          "Cancer Research Centers",
+          "Carpet & Rug Dealers-New",
+          "Churches",
+          "Clothing-Retail",
+          "Communications",
+          "Computer Programming Services",
+          "Computer-Software Developers",
+          "Consultants-Business Nec",
+          "Dentists",
+          "Educational Service-Business",
+          "Energy Management Systems & Products",
+          "Engineers",
+          "Federal Government Contractors",
+          "Foundation-Educ Philanthropic Research",
+          "Fraternities & Sororities",
+          "General Merchandise-Retail",
+          "Health Education",
+          "Health Services",
+          "Hotels & Motels",
+          "Insurance",
+          "Janitor Service",
+          "Landscape Designers",
+          "Loans",
+          "Loans-Personal",
+          "Mailing & Shipping Services",
+          "Mergers & Acquisitions",
+          "Museums",
+          "Nonclassified Establishments",
+          "Nurses-Practitioners",
+          "Painters",
+          "Parking Stations & Garages",
+          "Pet Washing & Grooming",
+          "Pharmacies",
+          "Physical Therapists",
+          "Physicians & Surgeons",
+          "Physicians Assistants",
+          "Plumbing Contractors",
+          "Political Organizations",
+          "Public Relations Counselors",
+          "Real Estate",
+          "Religious Organizations",
+          "Research Service",
+          "Social Services Nec",
+          "Social Workers",
+          "Speech Pathologists",
+          "Telecommunications Services",
+          "Transportation",
+          "Website Design Service",
+          "Wellness Programs",
+          "Yoga Instruction"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc1"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc1",
+        "max_value": 0.55,
+        "min_value": 0.55
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc1",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "max_value": 154222.0,
+        "min_value": 154222.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "max_value": 999966.0,
+        "min_value": 999966.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "max_value": 776728.0,
+        "min_value": 776728.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "max_value": 804908.0,
+        "min_value": 804908.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "scnd_sic2",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              154222.0,
+              154222.0
+            ],
+            [
+              628999.0,
+              628999.0
+            ],
+            [
+              804908.0,
+              804908.0
+            ],
+            [
+              999966.0,
+              999966.0
+            ],
+            [
+              999966.0,
+              999966.0
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "value_set": [
+          154222.0,
+          616201.0,
+          628999.0,
+          729995.0,
+          804908.0,
+          804911.0,
+          999966.0
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "mostly": 0.89
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "max_value": 0.6363636363636364,
+        "min_value": 0.6363636363636364
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_sic2",
+        "type_list": [
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FLOAT64",
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "NUMERIC",
+          "FloatType",
+          "DoubleType",
+          "float_",
+          "float16",
+          "float32",
+          "float64",
+          "number",
+          "DECIMAL",
+          "REAL"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc2",
+        "value_set": [
+          "Construction Site Clean-Up Services",
+          "Federal Government Contractors",
+          "Nurses & Nurses' Registries",
+          "Occupational Therapists",
+          "Real Estate Loans",
+          "Services Allied With Exch Of Sec Nec",
+          "Yoga"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc2",
+        "mostly": 0.89
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc2",
+        "max_value": 0.6363636363636364,
+        "min_value": 0.6363636363636364
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "scnd_dsc2",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_a_score",
+        "value_set": [
+          "A",
+          "B",
+          "B+",
+          "C",
+          "C+",
+          "I",
+          "P",
+          "U"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_a_score"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_a_score",
+        "max_value": 0.08,
+        "min_value": 0.08
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_a_score",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score",
+        "max_value": 48,
+        "min_value": 48
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score",
+        "max_value": 94,
+        "min_value": 94
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score",
+        "max_value": 77.3,
+        "min_value": 77.3
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score",
+        "max_value": 79.0,
+        "min_value": 79.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "cr_n_score",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              48,
+              48
+            ],
+            [
+              74,
+              74
+            ],
+            [
+              79,
+              79
+            ],
+            [
+              84,
+              84
+            ],
+            [
+              92,
+              92
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score",
+        "value_set": [
+          48,
+          51,
+          57,
+          64,
+          68,
+          69,
+          71,
+          73,
+          74,
+          75,
+          76,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          91,
+          92,
+          93,
+          94
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score",
+        "max_value": 0.26,
+        "min_value": 0.26
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "cr_n_score",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "headqtr",
+        "value_set": [
+          "Branch",
+          "Single Loc",
+          "Subsidiary"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "headqtr"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "headqtr",
+        "max_value": 0.03,
+        "min_value": 0.03
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "headqtr",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year",
+        "max_value": 1987,
+        "min_value": 1987
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year",
+        "max_value": 2021,
+        "min_value": 2021
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year",
+        "max_value": 2016.85,
+        "min_value": 2016.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year",
+        "max_value": 2018.0,
+        "min_value": 2018.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "first_year",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              2012,
+              2012
+            ],
+            [
+              2015,
+              2015
+            ],
+            [
+              2018,
+              2018
+            ],
+            [
+              2019,
+              2019
+            ],
+            [
+              2021,
+              2021
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year",
+        "value_set": [
+          1987,
+          2008,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year",
+        "max_value": 0.12,
+        "min_value": 0.12
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "first_year",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ofc_size",
+        "value_set": [
+          "1 Professional"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ofc_size",
+        "mostly": 0.61
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ofc_size",
+        "max_value": 0.02564102564102564,
+        "min_value": 0.02564102564102564
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ofc_size",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sq_foot",
+        "value_set": [
+          "1 - 1,499",
+          "1,500 - 2,499",
+          "10,000 - 19,999",
+          "2,500 - 4,999",
+          "20,000 - 39,999",
+          "40,000 - 99,999",
+          "5,000 - 9,999"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sq_foot",
+        "mostly": 0.94
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sq_foot",
+        "max_value": 0.07446808510638298,
+        "min_value": 0.07446808510638298
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "sq_foot",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "firm_indv",
+        "value_set": [
+          "Firm/Business",
+          "Individual"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "firm_indv"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "firm_indv",
+        "max_value": 0.02,
+        "min_value": 0.02
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "firm_indv",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "pub_pvt",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pub_pvt",
+        "value_set": []
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pub_pvt",
+        "mostly": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pub_pvt",
+        "max_value": 0,
+        "min_value": 0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pub_pvt",
+        "type_list": [
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FLOAT64",
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "NUMERIC",
+          "FloatType",
+          "DoubleType",
+          "float_",
+          "float16",
+          "float32",
+          "float64",
+          "number",
+          "DECIMAL",
+          "REAL"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "fleetsize",
+        "value_set": [
+          "1 to 10",
+          "11 to 19",
+          "20 to 49",
+          "Unknown"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "fleetsize"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "fleetsize",
+        "max_value": 0.04,
+        "min_value": 0.04
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "fleetsize",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "specialty1",
+        "value_set": [
+          "Baptist",
+          "Bikram Yoga",
+          "Cultural",
+          "Family Practice",
+          "General Dentistry",
+          "Internal Medicine",
+          "Neurology",
+          "Onemain Financial",
+          "Ophthalmology",
+          "Orthopedic Surgery",
+          "Pediatrics",
+          "Transamerica"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "specialty1",
+        "mostly": 0.83
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "specialty1",
+        "max_value": 0.7058823529411765,
+        "min_value": 0.7058823529411765
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "specialty1",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "specialty2",
+        "mostly": 0.96
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "specialty2",
+        "max_value": 1.0,
+        "min_value": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "specialty2",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "ind_code",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ind_code",
+        "value_set": []
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ind_code",
+        "mostly": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ind_code",
+        "max_value": 0,
+        "min_value": 0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ind_code",
+        "type_list": [
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FLOAT64",
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "NUMERIC",
+          "FloatType",
+          "DoubleType",
+          "float_",
+          "float16",
+          "float32",
+          "float64",
+          "number",
+          "DECIMAL",
+          "REAL"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "yellowpage",
+        "value_set": [
+          "Bold",
+          "Regular"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "yellowpage",
+        "mostly": 0.95
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "yellowpage",
+        "max_value": 0.4,
+        "min_value": 0.4
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "yellowpage",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "metro_area",
+        "value_set": [
+          "Baltimr-Twsn, MD"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "metro_area"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "metro_area",
+        "max_value": 0.01,
+        "min_value": 0.01
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "metro_area",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "infousa_id",
+        "max_value": 406720987,
+        "min_value": 406720987
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "infousa_id",
+        "max_value": 761755454,
+        "min_value": 761755454
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "infousa_id",
+        "max_value": 688280501.23,
+        "min_value": 688280501.23
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "infousa_id",
+        "max_value": 736361780.5,
+        "min_value": 736361780.5
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "infousa_id",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              421768380,
+              421768380
+            ],
+            [
+              713537497,
+              713537497
+            ],
+            [
+              736361485,
+              736361485
+            ],
+            [
+              742039393,
+              742039393
+            ],
+            [
+              756139006,
+              756139006
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "infousa_id"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "infousa_id",
+        "max_value": 1.0,
+        "min_value": 1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "infousa_id",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "latitude",
+        "max_value": 39238686,
+        "min_value": 39238686
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "latitude",
+        "max_value": 39367136,
+        "min_value": 39367136
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "latitude",
+        "max_value": 39301440.83,
+        "min_value": 39301440.83
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "latitude",
+        "max_value": 39294529.0,
+        "min_value": 39294529.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "latitude",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              39278610,
+              39278610
+            ],
+            [
+              39288111,
+              39288111
+            ],
+            [
+              39294276,
+              39294276
+            ],
+            [
+              39311575,
+              39311575
+            ],
+            [
+              39353422,
+              39353422
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "latitude"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "latitude",
+        "max_value": 0.85,
+        "min_value": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "latitude",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "longitude",
+        "max_value": 76542060,
+        "min_value": 76542060
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "longitude",
+        "max_value": 76703981,
+        "min_value": 76703981
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "longitude",
+        "max_value": 76618579.86,
+        "min_value": 76618579.86
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "longitude",
+        "max_value": 76616052.0,
+        "min_value": 76616052.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "longitude",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              76562074,
+              76562074
+            ],
+            [
+              76597359,
+              76597359
+            ],
+            [
+              76615604,
+              76615604
+            ],
+            [
+              76628600,
+              76628600
+            ],
+            [
+              76675581,
+              76675581
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "longitude"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "longitude",
+        "max_value": 0.85,
+        "min_value": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "longitude",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "match_code",
+        "value_set": [
+          "0",
+          "P",
+          "X"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "match_code"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "match_code",
+        "max_value": 0.03,
+        "min_value": 0.03
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "match_code",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics",
+        "max_value": 23622005,
+        "min_value": 23622005
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics",
+        "max_value": 99999005,
+        "min_value": 99999005
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics",
+        "max_value": 63866168.28,
+        "min_value": 63866168.28
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics",
+        "max_value": 62111107.0,
+        "min_value": 62111107.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "prim_naics",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              44221001,
+              44221001
+            ],
+            [
+              54161830,
+              54161830
+            ],
+            [
+              62111107,
+              62111107
+            ],
+            [
+              62199921,
+              62199921
+            ],
+            [
+              99999004,
+              99999004
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics",
+        "value_set": [
+          23622005,
+          23822013,
+          23822025,
+          23832003,
+          44221001,
+          44611009,
+          44814001,
+          45231906,
+          48821008,
+          51791901,
+          51791916,
+          52229103,
+          52229108,
+          52393010,
+          52421001,
+          53121003,
+          54131001,
+          54132004,
+          54133006,
+          54151103,
+          54151108,
+          54151217,
+          54161830,
+          54171521,
+          54172006,
+          54182004,
+          54186007,
+          54191003,
+          56172001,
+          56199001,
+          61169914,
+          61171003,
+          62111107,
+          62121003,
+          62133003,
+          62134007,
+          62134009,
+          62139923,
+          62139932,
+          62199917,
+          62199921,
+          62199952,
+          71211001,
+          72111002,
+          81211202,
+          81291021,
+          81293004,
+          81311008,
+          81311021,
+          81331909,
+          81341006,
+          81391002,
+          81394003,
+          99999004,
+          99999005
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics",
+        "max_value": 0.55,
+        "min_value": 0.55
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prim_naics",
+        "type_list": [
+          "INTEGER",
+          "integer",
+          "int",
+          "int_",
+          "int8",
+          "int16",
+          "int32",
+          "int64",
+          "uint8",
+          "uint16",
+          "uint32",
+          "uint64",
+          "INT",
+          "INTEGER",
+          "INT64",
+          "TINYINT",
+          "BYTEINT",
+          "SMALLINT",
+          "BIGINT",
+          "IntegerType",
+          "LongType"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pnaics_dsc",
+        "value_set": [
+          "All Other General Merchandise Stores",
+          "All Other Miscellaneous Ambulatory Health Care Ser",
+          "All Other Miscellaneous Schools And Instruction",
+          "All Other Support Services",
+          "All Other Telecommunications",
+          "Architectural Services",
+          "Beauty Salons",
+          "Business Associations",
+          "Civic And Social Organizations",
+          "Commercial And Institutional Building Construction",
+          "Computer Systems Design Services",
+          "Consumer Lending",
+          "Custom Computer Programming Services",
+          "Direct Mail Advertising",
+          "Educational Support Services",
+          "Engineering Services",
+          "Family Clothing Stores",
+          "Floor Covering Stores",
+          "Hotels (Except Casino Hotels) And Motels",
+          "Insurance Agencies And Brokerages",
+          "Investment Advice",
+          "Janitorial Services",
+          "Landscape Architectural Services",
+          "Marketing Research And Public Opinion Polling",
+          "Museums",
+          "Offices Of All Other Miscellaneous Health Practiti",
+          "Offices Of Dentists",
+          "Offices Of Mental Health Practitioners (Except Phy",
+          "Offices Of Physical, Occupational And Speech Thera",
+          "Offices Of Physicians (Except Mental Health Specia",
+          "Offices Of Real Estate Agents And Brokers",
+          "Other Management Consulting Services",
+          "Other Social Advocacy Organizations",
+          "Painting And Wall Covering Contractors",
+          "Parking Lots And Garages",
+          "Pet Care (Except Veterinary) Services",
+          "Pharmacies And Drug Stores",
+          "Plumbing, Heating, And Air-Conditioning Contractor",
+          "Political Organizations",
+          "Public Relations Agencies",
+          "Religious Organizations",
+          "Research And Development In The Physical, Engineer",
+          "Research And Development In The Social Sciences An",
+          "Support Activities For Rail Transportation",
+          "Unclassified Establishments"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pnaics_dsc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pnaics_dsc",
+        "max_value": 0.45,
+        "min_value": 0.45
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pnaics_dsc",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "acct_exp",
+        "value_set": [
+          "$1,000 - $2,500",
+          "$2,500 - $5,000",
+          "$5,000 - $10,000",
+          "$500 - $1,000",
+          "Less than $500"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "acct_exp",
+        "mostly": 0.64
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "acct_exp",
+        "max_value": 0.1388888888888889,
+        "min_value": 0.1388888888888889
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "acct_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ad_exp",
+        "value_set": [
+          "$10,000 - $20,000",
+          "$20,000 - $50,000",
+          "$5,000 - $10,000",
+          "$50,000 - $100,000",
+          "Less than $5,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ad_exp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ad_exp",
+        "max_value": 0.10638297872340426,
+        "min_value": 0.10638297872340426
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ad_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "offsup_exp",
+        "value_set": [
+          "$10,000 - $20,000",
+          "$100,000 - $250,000",
+          "$20,000 - $50,000",
+          "$5,000 - $10,000",
+          "$50,000 - $100,000",
+          "Less than $5,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "offsup_exp",
+        "mostly": 0.56
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "offsup_exp",
+        "max_value": 0.13953488372093023,
+        "min_value": 0.13953488372093023
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "offsup_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pay_exp",
+        "value_set": [
+          "$1 - $2.5 Million",
+          "$100,000 - $250,000",
+          "$250,000 - $500,000",
+          "$500,000 - $1 Million",
+          "Less than $100,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pay_exp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pay_exp",
+        "max_value": 0.10638297872340426,
+        "min_value": 0.10638297872340426
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pay_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "rent_exp",
+        "value_set": [
+          "$10,000 - $25,000",
+          "$100,000 - $250,000",
+          "$25,000 - $50,000",
+          "$50,000 - $100,000",
+          "Less than $10,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "rent_exp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "rent_exp",
+        "max_value": 0.10638297872340426,
+        "min_value": 0.10638297872340426
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "rent_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tech_exp",
+        "value_set": [
+          "$1,000 - $2,500",
+          "$10,000 - $50,000",
+          "$2,500 - $5,000",
+          "$5,000 - $10,000",
+          "$500 - $1,000",
+          "Less than $500"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tech_exp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tech_exp",
+        "max_value": 0.1276595744680851,
+        "min_value": 0.1276595744680851
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tech_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tele_exp",
+        "value_set": [
+          "$2,000 - $5,000",
+          "$20,000 - $50,000",
+          "$5,000 - $20,000",
+          "Less than $2,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tele_exp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tele_exp",
+        "max_value": 0.0851063829787234,
+        "min_value": 0.0851063829787234
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "tele_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ins_exp",
+        "value_set": [
+          "$10,000 - $25,000",
+          "$2,500 - $5,000",
+          "$5,000 - $10,000",
+          "Less than $2,500"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ins_exp",
+        "mostly": 0.68
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ins_exp",
+        "max_value": 0.125,
+        "min_value": 0.125
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "ins_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "legal_exp",
+        "value_set": [
+          "$1,000 - $2,500",
+          "$10,000 - $25,000",
+          "$2,500 - $5,000",
+          "$5,000 - $10,000",
+          "$500 - $1,000",
+          "Less than $500"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "legal_exp",
+        "mostly": 0.64
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "legal_exp",
+        "max_value": 0.16666666666666666,
+        "min_value": 0.16666666666666666
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "legal_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pckg_exp",
+        "value_set": [
+          "$1,000 - $5,000",
+          "$5,000 - $10,000",
+          "$500 - $1,000",
+          "Less than $500"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pckg_exp",
+        "mostly": 0.71
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pckg_exp",
+        "max_value": 0.13793103448275862,
+        "min_value": 0.13793103448275862
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pckg_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pirnt_exp",
+        "value_set": [
+          "$1,000 - $2,500",
+          "$10,000 - $25,000",
+          "$2,500 - $5,000",
+          "$5,000 - $10,000",
+          "$500 - $1,000",
+          "Less than $500",
+          "Over $25,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pirnt_exp",
+        "mostly": 0.68
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pirnt_exp",
+        "max_value": 0.21875,
+        "min_value": 0.21875
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "pirnt_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prof_exp",
+        "value_set": [
+          "$10,000 - $25,000",
+          "$2,500 - $5,000",
+          "$25,000 - $50,000",
+          "$5,000 - $10,000",
+          "$50,000 - $100,000",
+          "Less than $2,500",
+          "Over $100,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prof_exp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prof_exp",
+        "max_value": 0.14893617021276595,
+        "min_value": 0.14893617021276595
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "prof_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "templbrexp",
+        "value_set": [
+          "$1,000 - $10,000",
+          "$10,000 - $50,000",
+          "$50,000 - $100,000",
+          "Less than $1,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "templbrexp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "templbrexp",
+        "max_value": 0.0851063829787234,
+        "min_value": 0.0851063829787234
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "templbrexp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "util_exp",
+        "value_set": [
+          "$10,000 - $25,000",
+          "$2,000 - $5,000",
+          "$5,000 - $10,000",
+          "$50,000 - $100,000",
+          "Less than $2,000",
+          "Over $100,000"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_null",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "util_exp",
+        "mostly": 0.53
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "util_exp",
+        "max_value": 0.1276595744680851,
+        "min_value": 0.1276595744680851
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column": "util_exp",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "VARCHAR",
+          "NVARCHAR",
+          "TEXT",
+          "NTEXT",
+          "STRING",
+          "StringType",
+          "string",
+          "str",
+          "object",
+          "dtype('O')"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "SampleInfoUSA2021_Unittesting.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "data__dir",
+          "limit": 1000
+        },
+        "citation_date": "2021-10-05T17:44:34.188572Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.13.36"
+  }
+}
