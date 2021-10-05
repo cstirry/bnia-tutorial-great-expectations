@@ -15,9 +15,9 @@ The following walks through validating a dataset against a InfoUSA2021 data samp
 The core operation of Great Expectations is to "Validate data X against Expectation Y." These steps walk through how to validate a new dataset against the validation checks created from the original dataset.
 
 ### Clone repo locally
-update
+add if needed
 ### Set up Python Virtual Environment
-update
+add if needed
 ### Get new dataset ready 
 Save the new dataset as a csv in the data directory. 
 
