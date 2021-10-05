@@ -1,21 +1,39 @@
-# Great Expectations tutorials
+# BNIA - Great Expectations tutorial
 
-This repository contains the material for a number of Great Expectations tutorials. They all contain instructions in the respective README files.
+This repository was created using the Great Expectations 'How to Guide' tutorial applied to BNIA data. I recommend following their guide if interested in the earlier set up action items.
 
-**We invite community contributions for these tutorials!**
+The following walks through validating a dataset against a InfoUSA2021 data sample. The validation checks (i.e. Expectations) were created using the Great Expecations automatic Profiler on the data sample, these validiations will need to be updated.
 
+## Key Files
 
-## getting_started_tutorial_final_v3_api [TBD]
-This example contains the final state of the "Getting started with Great Expectations" tutorial for the Great 
-Expectations API v3 (Batch Kwargs API), which is included in Great Expectations version 0.13 and above. 
-It also acts as a starting point to explore and demo Great Expectations. See the README in the directory for details.
+- expectations/bnia/demo.json: the validation checks being performed
+- checkpoints: these are bundled validation data check, you'll create one in the below steps
+- great_gxpectations.yml: configuration information set in initial setup stage
 
-## getting_started_tutorial_final_v2_api
-This example contains the final state of the "Getting started with Great Expectations" tutorial for the Great Expectations 
-API v2 (Batch Kwargs API) which applies to Great Expectations version 0.12.x and below. It also acts as a starting point 
-to explore and demo Great Expectations. See the README in the directory for details.
+## Steps to Validate dataset
 
-## ge_dbt_airflow_tutorial
-This example demonstrates the use of Great Expectations in a data pipeline with dbt and Apache Airflow. 
-See the README in the directory for details. **Note** This tutorial currently requires an update to work with the 
-new-style Checkpoints that were introduced in version 0.13.8.
+The core operation of Great Expectations is to "Validate data X against Expectation Y." These steps walk through how to validate a new dataset against the validation checks created from the original dataset.
+
+### Clone repo locally
+update
+### Set up Python Virtual Environment
+update
+### Get new dataset ready 
+Save the new dataset as a csv in the data directory. Note that you will need to know the file name and file type so if thats something you want to automatically document, may want to write a pre-validation script. (Note - GE gave me an error in opening the UI when comparing a dataset with different fields, need to look into this). 
+### Set up a checkpoint
+Run the following command:
+```
+great_expectations --v3-api checkpoint new my_new_checkpoint
+```
+This will open a juypter notebook. Update the yaml_config template code to include the correct csv file in the data directory.
+```
+data_asset_name: dataset.csv
+```
+Run the notebook. If you want it to open the UI (Data Docs), uncomment the bottom cell.
+This will have created a new checkpoint yml file in the checkpoint directory.
+### Open Data Docs
+You can also open the data docs with the following command:
+```
+great_expectations docs build
+```
+The Data Docs UI allows you to explore your Validation results, as well as your Expectations. 
